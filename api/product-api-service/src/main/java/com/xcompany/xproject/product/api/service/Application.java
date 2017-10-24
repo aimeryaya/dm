@@ -30,9 +30,9 @@ import org.springframework.web.client.RestTemplate;
 //@EnableOAuth2Resource
 @EnableResourceServer
 public class Application {
-
+  
 	private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
-	
+	//remote 测试
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//SpringApplication.run(Application.class, args);
